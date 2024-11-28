@@ -48,3 +48,4 @@ tidy_data <- selected_data %>%
 
 # Writing the tidy dataset to a file
 write.table(tidy_data, "tidy_data.txt", row.name = FALSE)
+
